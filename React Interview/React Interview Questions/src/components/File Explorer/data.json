@@ -1,0 +1,73 @@
+{
+    "Folders": {
+        "id": "1",
+        "name": "root",
+        "isFolder": true,
+        "Files": [
+            {
+                "id": "2",
+                "name": "src",
+                "isFolder": true,
+                "Files": [
+                    {
+                        "id": "3",
+                        "name": "App",
+                        "isFolder": true,
+                        "Files": [
+                            {
+                                "id": "4",
+                                "name": "Index.js",
+                                "isFolder": false,
+                                "Files": []
+                            },
+                            {
+                                "id": "5",
+                                "name": "styles.css",
+                                "isFolder": false,
+                                "Files": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": "6",
+                "name": "package.json",
+                "isFolder": false,
+                "Files": []
+            },
+            {
+                "id": "7",
+                "name": "public",
+                "isFolder": true,
+                "Files": [
+                    {
+                        "id": "8",
+                        "name": "public nested 1",
+                        "isFolder": true,
+                        "Files": [
+                            {
+                                "id": "9",
+                                "name": "index.html",
+                                "isFolder": false,
+                                "Files": []
+                            },
+                            {
+                                "id": "10",
+                                "name": "hello.html",
+                                "isFolder": false,
+                                "Files": []
+                            }
+                        ]
+                    },
+                    {
+                        "id": "11",
+                        "name": "public_nested_file",
+                        "isFolder": false,
+                        "Files": []
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+.__File_Explorer_Body{
+    padding: 25px;
+    height: 100vh;
+    width: 300px;
+    font-family: inter;
+    border-right: 1px solid var(--border-color);
+}
+.__File_Explorer_Title{
+    font-weight: 600;
+    font-size: 1rem;
+    
+}
+.__File_Explorer_Nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    padding: 5px;
+
+
+}
+.__File_Explorer_btn{
+    font-size: 11px;
+    margin: 1px;
+    border-radius: 3px;
+    background-color: transparent;
+    color: var(--accent);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    
+}
+.__File_Explorer_btn:hover{
+    color: var(--text-hover);
+    transition: 0.2s;
+}
+.__File_Explorer_Tree{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 5px;
+
+}
+.__File_Explorer_Folder_title{
+    cursor: pointer;
+    color: inherit;
+    font-size: 13px;
+  
+   
+}
+
+.__Folder_Active{
+    background-color: var(--border-color);
+    color: var(--accent);
+    border-radius: 5px;
+}
+
+.__File_Active{
+    color: var(--accent);
+}
+
+.__File_Explorer_File_Box{
+ 
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    font-size: 12px;
+  
+}
+.__File_Explorer_File_Box:hover{
+    color: var(--text-hover);
+}
+.__File_Input_Container{
+    margin-left: 10px;
+
+}
+.__File_Input_Box{
+    margin-left: 5px;
+    border: 1px solid var(--border-color);
+    outline:none;
+    background-color: var(--border-color);
+    color:var(--accent)
+}

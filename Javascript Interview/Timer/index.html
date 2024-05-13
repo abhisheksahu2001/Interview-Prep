@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css"/>
+    <script defer src="./index.js"></script>
+    <title>Document</title>
+</head>
+<body class="container" >
+    <div class="timer_box">
+        <span class="timer_hour " ><input id="hrInput" value="00" placeholder="hr" min="0" class="timer_hour_input"  name="hour" type="number" ></span>
+        <p>:</p>
+        <span class="timer_minutes" ><input id="minInput" value="00" placeholder="min" class="timer_minute_input" name="minute" type="number" max="60" min="0" ></span>
+        <p>:</p>
+        
+        <span class="timer_seconds"><input id="secInput" value="00" placeholder="sec" name="second" class="timer_second_input"   min="0" max="60" type="number" ></span>
+    </div>
+    <div class="actions_box" >
+        <button id="start_btn" type="button"  class="primarybtn">Start</button>
+        <button id="stop_btn" type="button"  class="primarybtn stop_btn">Stop</button>
+        <button id="reset_btn" type="button" class="secondarybtn">Reset</button>
+    </div>
+</body>
+</html>

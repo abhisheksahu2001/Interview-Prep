@@ -1,0 +1,76 @@
+*{
+    background-color: rgb(252, 255, 214);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    gap:10px
+}
+input{
+    border-radius: 5px;
+    margin: 2px;
+    outline: none;
+    border: 0px;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    background-color: rgb(236, 255, 69);
+
+
+}
+p{
+    margin: 2px;
+    padding-top: 2px;
+    font-weight: 900;
+}
+.timer_box{
+    display: flex;
+    width: 200px;
+    /* position: relative; */
+}
+.timer_box > span {
+    flex: 1;
+} 
+/* .timer_box > span:first-child:before{
+    content: "hr";
+    position: absolute;
+    transform: translateY(-20px);
+    width: 100%;
+} */
+.actions_box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.secondarybtn ,.primarybtn{
+    display: block;
+    cursor: pointer;
+    width: 80px;
+    padding: 5px;
+    border-radius: 8px;
+}
+.secondarybtn{
+    background-color: aqua;
+}
+.secondarybtn:hover{
+    background-color: rgb(73, 201, 201);
+}
+.primarybtn:hover{
+    background-color:rgb(101, 190, 11);
+}
+.primarybtn{
+    background-color: chartreuse;
+}
+.stop_btn{
+    display: none;
+}
